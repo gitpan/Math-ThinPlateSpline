@@ -1,21 +1,20 @@
+Build.PL
 buildtools/synchronize.pl
 Changes
 lib/Math/ThinPlateSpline.pm
-linalg3d.cc
-linalg3d.h
-ludecomposition.h
-Makefile.PL
 MANIFEST			This list of files
 MANIFEST.SKIP
-perlobject.map
-ppport.h
 README
+src/linalg3d.cc
+src/linalg3d.h
+src/ludecomposition.h
+src/myinit.h
+src/ppport.h
+src/ThinPlateSpline.cc
+src/ThinPlateSpline.h
+src/TPSException.h
 t/01basic.t
-ThinPlateSpline.cc
-ThinPlateSpline.h
-ThinPlateSpline.xsp
-TPS.xs
-TPSException.h
-typemap
-typemap.xsp
-META.yml                                 Module meta-data (added by MakeMaker)
+xsp/my.map
+xsp/ThinPlateSpline.xsp
+xsp/typemap.xsp
+META.yml
