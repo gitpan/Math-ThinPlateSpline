@@ -3,13 +3,13 @@ abstract: 'Calculate and evaluate thin plate splines'
 author:
   - 'Steffen Mueller, E<lt>smueller@cpan.orgE<gt>'
 build_requires:
-  ExtUtils::Typemap::ObjectMap: 0.01
-  ExtUtils::Typemap::STL: 0.01
-  ExtUtils::XSpp: 0.12
+  ExtUtils::CBuilder: 0
+  ExtUtils::Typemap::Default: 0.01
+  ExtUtils::XSpp: 0.14
 configure_requires:
   ExtUtils::CppGuess: 0.04
   Module::Build: 0.36
-  Module::Build::WithXSpp: 0.06
+  Module::Build::WithXSpp: 0.07
 generated_by: 'Module::Build version 0.3605'
 license: perl
 meta-spec:
@@ -19,7 +19,7 @@ name: Math-ThinPlateSpline
 provides:
   Math::ThinPlateSpline:
     file: lib/Math/ThinPlateSpline.pm
-    version: 0.03
+    version: 0.04
 resources:
   license: http://dev.perl.org/licenses/
-version: 0.03
+version: 0.04

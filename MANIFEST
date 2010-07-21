@@ -4,6 +4,7 @@ Changes
 lib/Math/ThinPlateSpline.pm
 MANIFEST			This list of files
 MANIFEST.SKIP
+META.yml
 README
 src/linalg3d.cc
 src/linalg3d.h
@@ -16,5 +17,3 @@ src/TPSException.h
 t/01basic.t
 xsp/my.map
 xsp/ThinPlateSpline.xsp
-xsp/typemap.xsp
-META.yml
