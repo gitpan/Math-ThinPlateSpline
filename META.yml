@@ -4,8 +4,8 @@ author:
   - 'Steffen Mueller, E<lt>smueller@cpan.orgE<gt>'
 build_requires:
   ExtUtils::CBuilder: 0
-  ExtUtils::Typemap::Default: 0.01
-  ExtUtils::XSpp: 0.14
+  ExtUtils::Typemap::Default: 0.05
+  ExtUtils::XSpp: 0.15
 configure_requires:
   ExtUtils::CppGuess: 0.04
   Module::Build: 0.36
@@ -19,7 +19,7 @@ name: Math-ThinPlateSpline
 provides:
   Math::ThinPlateSpline:
     file: lib/Math/ThinPlateSpline.pm
-    version: 0.04
+    version: 0.05
 resources:
   license: http://dev.perl.org/licenses/
-version: 0.04
+version: 0.05
