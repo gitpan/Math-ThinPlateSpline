@@ -17,3 +17,4 @@ src/TPSException.h
 t/01basic.t
 xsp/my.map
 xsp/ThinPlateSpline.xsp
+META.json
